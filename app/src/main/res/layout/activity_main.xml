@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ell.jsonserialanddeserialization.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="82dp">
+
+        <TextView
+            android:id="@+id/textToShow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:baselineAligned="false"
+            android:lineSpacingExtra="8sp"
+            android:text="JASON TEST"
+            android:textAlignment="center"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Button
+
+            style="@style/Widget.AppCompat.Button.Colored"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:onClick="Count"
+
+            android:text="COUNT" />
+
+        <Button
+
+            style="@style/Widget.AppCompat.Button.Colored"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:onClick="List"
+
+            android:text="LIST" />
+
+        <Button
+
+            style="@style/Widget.AppCompat.Button.Colored"
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:onClick="stringToModify"
+
+            android:text="MODIFY" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
